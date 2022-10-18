@@ -83,10 +83,10 @@ function draw() {
 }
 
 function handleButtonPress() {
-  jointLink=dettach();
+  /*jointLink=dettach();
   setTimeout(() => {
     bridge.break();
-  }, 1500);
+  }, 1500);*/
 
   /*jointLink.dettach();
   setTimeout(() => {
@@ -98,8 +98,8 @@ function handleButtonPress() {
     bridge.break();
   }, 5);*/
 
-  /*jointLink.dettach();
+  jointLink.dettach();
   setTimeout(() => {
     bridge.break();
-  }, 1500);*/
+  }, 1500);
 }
